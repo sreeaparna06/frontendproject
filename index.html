@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7VSnfmeDM_RcOLwKLUeJ-gHh6OSTi9MAIaxOmt-BUjmycTdWW-ObH-CLtnyGqSONfrmM&usqp=CAU" class="logo" height="100" width="500">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-ellipsis-vertical" onclick=" openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>FRONT END DEVELOPER</p>
+            <h1>Hi, I'm <span>Sree Aparna</span> <br>From INDIA</h1>
+        </div>
+    </div>
+</div>
+<!----------about----------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://thumbs.dreamstime.com/z/businesswoman-posing-looking-you-office-front-view-portrait-desk-107256428.jpg" alt="user" height="400" width="400">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Sree Aparna,pursuing B-tech in Vignan's Nirula Institute of Technology and Science For Women
+                     in Electronics and Communication engineering with the CGPA of 7.6................</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experance')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p> 
+                        
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces<br></li>
+                            <li><span>Web Development</span><br>WebApp Development<br></li>
+                            <li><span>App Development</span><br>Building Android<br></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-current</span><br>leaning front end development<br></li>
+                            <li><span>2022</span><br>WebApp Development<br></li>
+                            <li><span>2023</span><br>Building Android and no work experience<br></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>ssc at kids patasala<br></li>
+                            <li><span>2020</span><br>Inter  in MPC<br></li>
+                            <li><span>2024</span><br>btech in Electronics and Communication Engineering(pursing)<br></li>
+                        </ul>
+                     </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-------------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web designers plan, create and code internet sites and web pages,
+                     many of which combine text with sounds, pictures, graphics and video clips. 
+                     A web designer is responsible for creating the design and layout of a website or web pages.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX design aims to create a positive user experience that
+                     encourages customers to stick with a brand or product.
+                     While a UX Designer decides how the user interface works, 
+                     the UI designer decides how the user interface looks.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>The whole app design process is about learning what users want.
+                     Whether interviewing your customers, building prototypes, and testing them,
+                      you learn something new about your customer and the industry in general.</p>
+                    <a href="#">Learn more</a>
+            </div>
+  
+        </div>
+  
+    </div>
+  </div>
+  
+  <!--------portfolio----------------------------->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://maxst.icons8.com/vue-static/icon/popular-request/request-social-media.png" alt="work image 1" height="500">
+                <div class="layer">
+                    <h3>social media App</h3>
+                    <p>The app contains you the talented people around the world.
+                        Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="data:image/png;base64,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" alt="work image 2" height="500"><div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app contains you the talented people around the world.
+                        Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://images.news18.com/ibnlive/uploads/2019/08/Ecommerce-Shopping-Websites-India.jpg?im=FitAndFill=(1200,675)?im=FitAndFill,width=1200,height=675" alt="work image 3" height="500">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app contains you the talanted people around the world.
+                        Download it from playstore.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  
+  <!---------------------contact--------------------------->
+  
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sreeaparnaravinutala@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8341192948</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="file:///C:/Users/Lenovo/Documents/Custom%20Office%20Templates/APARNA%20RAVINUTALA%20RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit </button>
+                </form>
+                 <span id="msg"></span>
+               
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Sree Aparna.<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-links");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyUnBn8bT0AOjqDCBb1VKUMXKut2dIRp7-PqyPxYlTiCRaGe9FUU5ZuYEOtPGztp2lrLQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
